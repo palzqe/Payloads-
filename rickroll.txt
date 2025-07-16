@@ -1,4 +1,6 @@
 #!/bin/bash 
+#made by palq 
+#this payload exacutes a powershell script that opens a new tab to see rickroll Youtube.com
 DELAY 2000
 GUI r 
 DELAY 500
