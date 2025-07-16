@@ -1,0 +1,8 @@
+#!/bin/bash 
+DELAY 2000
+GUI r 
+DELAY 500
+STRING powershell -win h -nop -c "Start-Process ''https://www.youtube.com/watch?v=dQw4w9WgXcQ'"
+ENTER 
+
+java -jar duckencoder.jar -i rickroll.txt -o rickroll.bin

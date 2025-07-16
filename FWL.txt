@@ -1,0 +1,10 @@
+#!/bin/bash 
+LET SETUP 
+while true; do 
+  LED ON
+  sleep 0.5
+  LED OFF 
+  sleep 0.5 
+done 
+
+java -jar duckencoder.jar -i FWL.txt -o FWL.bin 
