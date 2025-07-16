@@ -1,4 +1,6 @@
 #!/bin/bash 
+#made by palq 
+#payload makes a fake LED on and off to prank the user 
 LET SETUP 
 while true; do 
   LED ON
